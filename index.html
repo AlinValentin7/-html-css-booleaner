@@ -4,35 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
-    <link rel="stylesheet" href="../-html-css-booleaner/css/app.css">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
+
+<!-- intestazione della pagina-->
+
 <body>
-    <header>
+    <figure id="logo" >
         <img src="./logo/logo.svg" alt="">
+    </figure>
+    <header>
         <h1>L internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
     </header>
+
+    <!--informazioni -->
+
     <footer>
-        <span>Sritto da The Booleaner</span>
-        <div>il 10/10/2020</div>
+        <span>Sritto da </span>
+        <span id="thebooleaner">The Booleaner</span>
+        <div id="">il 10/10/2020</div>
     </footer>
-    <section>
+
+    <!-- foto -->
+
+    <figure>
         <img src="./img/tim-1.jpg" alt="">
         <img src="./img/tim-2.jpg" alt="">
-        <div>1st Photo: jhons And James L.Knight Foundation, By Scott Henrichsen</div>
-        <div>2nd Photo: Wikimedia, by Paul Clarke</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam nobis similique. Neque possimus delectus nostrum id similique aut? Temporibus amet distinctio sed, eius quia minima reiciendis iste aut esse.</p>
+    </figure>
+
+    <!-- contenuto della pagina -->
+    
+    <main>
+        <div class="photo">1st Photo: jhons And James L.Knight Foundation, By Scott Henrichsen</div>
+        <div class="photo">2nd Photo: Wikimedia, by Paul Clarke</div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe numquam nobis similique. Neque possimus delectus nostrum id similique aut? <span id="Marker">Temporibus amet distinctio sed, eius quia minima reiciendis </span>iste aut esse.</p>
+    </main> 
+
+    <!-- sezione con vari capitoli-->
+
+    <section>  
         <ul>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quos rerum doloribus? Libero, perferendis sint?</li>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quos rerum doloribus? Libero, perferendis sint?</li>
             <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum quos rerum doloribus? Libero, perferendis sint?</li>
         </ul>
+    </section>     
+  
+    <!-- tabella -->
+
+    <figure>
         <table>
             <thead>
                 <th>Lorem, ipsum dolor.</th>
                 <th>Lorem, ipsum dolor.</th>
                 <th>Lorem, ipsum dolor.</th>
             </thead>
-            <tbody>
+            <tbody class="cella">
                 <td>Lorem, ipsum dolor.</td>
                 <td>Lorem, ipsum dolor.</td>
                 <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, error ut. Mollitia consequatur maxime accusantium quos minus eaque odio? Porro eaque quibusdam, quos ex unde officia magnam rem saepe placeat?</td>
@@ -42,13 +69,13 @@
                 <td>Lorem, ipsum dolor.</td>
                 <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, error ut. Mollitia consequatur maxime accusantium quos minus eaque odio? Porro eaque quibusdam, quos ex unde officia magnam rem saepe placeat?</td>
             </tbody>
-            <tbody>
+            <tbody class="cella">
                 <td>Lorem, ipsum dolor.</td>
                 <td>Lorem, ipsum dolor.</td>
                 <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, error ut. Mollitia consequatur maxime accusantium quos minus eaque odio? Porro eaque quibusdam, quos ex unde officia magnam rem saepe placeat?</td>
             </tbody>
          </table>
-    </section>
+    </figure>
 
 </body>
 </html>
